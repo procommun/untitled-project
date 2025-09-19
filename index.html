@@ -1,25 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Test Program 1</title>
-    <style>
-        .test-block {
-            margin: 50px auto;
-            padding: 20px 40px;
-            background: #f0f0f0;
-            border-radius: 8px;
-            width: fit-content;
-            font-family: Arial, sans-serif;
-            font-size: 1.2em;
-            color: #333;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Hello World - AI Book Recommendation App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      min-height: 100vh;
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #ece9e6, #ffffff 80%, #a3cef1 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      background: #fff;
+      padding: 48px 36px;
+      border-radius: 16px;
+      box-shadow: 0 6px 24px rgba(60, 58, 90, 0.12), 0 1.5px 8px rgba(60, 58, 90, 0.06);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 350px;
+      width: 100%;
+    }
+
+    .hello-title {
+      font-size: 2.2rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #1d6fa5, #62b197);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 16px;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #555b6e;
+      margin-bottom: 28px;
+      text-align: center;
+    }
+
+    .branding {
+      font-size: 0.93rem;
+      color: #b4bec9;
+      letter-spacing: 0.05em;
+      margin-top: 16px;
+    }
+  </style>
 </head>
 <body>
-    <div class="test-block">
-        Hello this is just a test program html page 1234
+  <div class="container">
+    <span class="hello-title">Hello, World!</span>
+    <div class="subtitle">
+      Welcome to the AI-Powered Book Recommendation Web App.<br>
+      Explore personalized book suggestions, reviews, and more!
     </div>
+    <div class="branding">
+      &copy; 2025 AI Book Recommender
+    </div>
+  </div>
 </body>
 </html>
