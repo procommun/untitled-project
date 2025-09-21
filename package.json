@@ -1,12 +1,12 @@
 {
-  "name": "untitled-project",
-  "version": "1.0.0",
-  "description": "A simple HTML project for WebContainer preview",
-  "scripts": {
-    "start": "lite-server",
-    "dev": "lite-server"
-  },
-  "devDependencies": {
-    "lite-server": "^2.6.1"
-  }
+    "name": "untitled-project",
+    "version": "1.0.0",
+    "description": "A simple HTML project for WebContainer preview",
+    "scripts": {
+        "start": "lite-server",
+        "dev": "lite-server"
+    },
+    "devDependencies": {
+        "lite-server": "^2.6.1"
+    }
 }
