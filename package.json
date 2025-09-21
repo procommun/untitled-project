@@ -1,12 +1,11 @@
 {
   "name": "untitled-project",
   "version": "1.0.0",
-  "description": "A simple HTML project for WebContainer preview",
+  "description": "Simple HTML project with Vite for preview",
   "scripts": {
-    "start": "lite-server",
-    "dev": "lite-server"
+    "dev": "vite"
   },
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "vite": "^5.0.0"
   }
 }
